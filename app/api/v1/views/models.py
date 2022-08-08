@@ -24,7 +24,6 @@ async def bucket_objects():
                 urn_dict = {"name": objs[i]["objectKey"],
                             "urn": urnify(objs[i]["objectId"])}
                 data.append(urn_dict)
-            print(data)
             return make_response(jsonify(data), 200)
         elif request.method == 'POST':
             if 'model-file' in request.files:

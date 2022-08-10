@@ -10,7 +10,7 @@ class Config(object):
 
     """App default settings."""
 
-    FLASK_DEBUG = os.environ.get('FLASK_DEBUG', True)
+    FLASK_ENV = os.environ.get('FLASK_ENV', True)
     DEBUG = os.environ.get('DEBUG', False)
     TESTING = os.environ.get('TESTING', False)
     SECRET_KEY = os.environ.get('SECRET_KEY', "secret")

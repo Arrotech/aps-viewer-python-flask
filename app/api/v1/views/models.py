@@ -8,7 +8,7 @@ from autodesk_forge_sdk.md import urnify
 from werkzeug.utils import secure_filename
 
 
-@blueprint_v1.route('/', methods=['GET'])
+@blueprint_v1.route('/index', methods=['GET'])
 def index():
     return render_template('index.html')
 

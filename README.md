@@ -1,3 +1,5 @@
+![Heroku](https://pyheroku-badge.herokuapp.com/?app=forge-python-flask&style=<STYLE>)
+
 # Forge Viewer with Python-Flask
 
 Simple forge viewer with python-flask.
@@ -23,6 +25,10 @@ Simple forge viewer with python-flask.
         FORGE_REGION='US' i.e US
 
 6. Then run the application as follows `flask run`
+
+# Heroku deployment
+
+You can test the application on [Heroku](https://forge-python-flask.herokuapp.com/).
 
 # Contributors
 

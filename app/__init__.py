@@ -12,6 +12,6 @@ def create_app(config_name='development'):
 
     from app.api.v1 import blueprint_v1  # noqa
 
-    app.register_blueprint(blueprint_v1, url_prefix='/api/v1/')
+    app.register_blueprint(blueprint_v1, url_prefix='/api/')
 
     return app

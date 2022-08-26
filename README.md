@@ -16,12 +16,12 @@ Simple forge viewer with python-flask.
 
         SECRET_KEY='verysecret'
 
-        FLASK_DEBUG=True
+        FLASK_ENV=development
         DEBUG=True
         TESTING=False
         FORGE_CLIENT_ID='Your-Client-Id'
         FORGE_CLIENT_SECRET='Your-Client-Secret'
-        FORGE_BUCKET='Bucket-key'
+        FORGE_BUCKET='Optional-Bucket-Key'
         FORGE_REGION='US' i.e US
 
 6. Then run the application as follows `flask run`

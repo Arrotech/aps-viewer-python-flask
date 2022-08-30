@@ -9,4 +9,4 @@ def home():
     return redirect(url_for('blueprint_v1.index', _external=True))
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()

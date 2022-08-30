@@ -14,7 +14,7 @@ class Config(object):
     DEBUG = os.environ.get('DEBUG', False)
     TESTING = os.environ.get('TESTING', False)
     SECRET_KEY = os.environ.get('SECRET_KEY', "secret")
-    MAX_CONTENT_LENGTH = 500 * 1024 * 1024 
+    MAX_CONTENT_LENGTH = 500 * 1024 * 1024 # 500MB
 
 
 class DevelopmentConfig(Config):

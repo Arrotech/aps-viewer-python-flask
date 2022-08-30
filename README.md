@@ -13,6 +13,7 @@ Simple forge viewer with python-flask.
 5. Create `.env` file and add the following environment variables.
 
         export FLASK_APP=run.py
+        export FLASK_RUN_PORT=8000
 
         SECRET_KEY='verysecret'
 

@@ -1,5 +1,3 @@
-![Heroku](https://pyheroku-badge.herokuapp.com/?app=forge-python-flask&style=<STYLE>)
-
 # APS Viewer with Python-Flask
 
 Simple APS viewer with python-flask.

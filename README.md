@@ -35,5 +35,5 @@ You can test the application on [Heroku](https://forge-python-flask.herokuapp.co
 
 # Author
 
-    Harun G. | Forge Developer Advocate
+    Harun G. | Autodesk Developer Advocate
 

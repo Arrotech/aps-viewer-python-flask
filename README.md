@@ -1,8 +1,8 @@
 ![Heroku](https://pyheroku-badge.herokuapp.com/?app=forge-python-flask&style=<STYLE>)
 
-# Forge Viewer with Python-Flask
+# APS Viewer with Python-Flask
 
-Simple forge viewer with python-flask.
+Simple APS viewer with python-flask.
 
 ## How to run the application
 
